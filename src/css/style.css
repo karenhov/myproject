@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+/* html {
+    font-family: 'Roboto', sans-serif;
+} */
+.box {
+    width: 300px;
+    height: 300px;
+    display: block;
+   /*position: relative;*/
+    margin: 0 auto;
+    background-color: grey;
+    border: 3px solid rgb(39, 39, 124);
+    margin-top: 20px;
+    color: rgb(39, 39, 124);
+    text-align: center;
+}
+.index {
+    /* position: absolute;
+    margin-left: 20px; */
+    font-family: 'Roboto', sans-serif;
+}
+.my-flex-cantainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+.my-flex-block {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+}
